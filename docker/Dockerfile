@@ -1,4 +1,4 @@
-FROM openjdk:11-jre
+FROM openjdk:11.0.16-jre
 VOLUME /tmp
 ARG DOCKERIZE_VERSION
 ARG ARTIFACT_NAME
